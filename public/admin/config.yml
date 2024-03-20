@@ -1,0 +1,146 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+media_folder: "public/img" # Where media files will be stored
+public_folder: "/img" # Where the media files can be accesed from the server
+publish_mode: editorial_workflow # For Drafts
+
+collections:
+  - name: "about" # Used in routes, e.g., /admin/collections/blog
+    label: "About" # Used in the UI
+    folder: "content/about" # The path to the folder where the documents are stored
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "blogs" 
+    label: "Blogs" 
+    folder: "content/blogs" 
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm", format: "LLL"}
+      - {label: "Image", name: "img", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "tradingbots" 
+    label: "Trading Bots" 
+    folder: "content/tradingBots" 
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "strategies" 
+    label: "Strategies" 
+    folder: "content/strategies" 
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "plans" 
+    label: "Plans" 
+    folder: "content/plans"
+    slug: "{{slug}}" 
+    fields: 
+      - label: "Plans" 
+        name: "plans"
+        widget: "list"
+        fields: 
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Price", name: "price", widget: "number"}
+          - label: "Features"
+            name: "features"
+            widget: "list"
+            fields:
+              - {label: "Feature", name: "ft", widget: "string"}
+
+  - name: "features" 
+    label: "features" 
+    folder: "content/features"
+    slug: "{{slug}}" 
+    fields: 
+      - label: "Features" 
+        name: "features"
+        widget: "list"
+        fields: 
+          - {label: "Feature", name: "ft", widget: "string"}
+
+  - name: "features-home" 
+    label: "Features Home" 
+    folder: "content/featuresHome"
+    slug: "{{slug}}" 
+    fields: 
+      - label: "Features Home" 
+        name: "features"
+        widget: "list"
+        fields: 
+          - {label: "Feature", name: "ft", widget: "string"}
+
+  - name: "features-list" 
+    label: "Features List" 
+    folder: "content/featuresList" 
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
+      - {label: "Image", name: "img", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "legal" 
+    label: "Legal" 
+    folder: "content/legal"
+    slug: "{{slug}}" 
+    fields: 
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "disclaimer" 
+    label: "Disclaimer" 
+    folder: "content/disclaimer"
+    slug: "{{slug}}" 
+    fields: 
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "services" 
+    label: "Services" 
+    folder: "content/services"
+    slug: "{{slug}}" 
+    fields: 
+      - label: "Services" 
+        name: "services"
+        widget: "list"
+        fields: 
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Img", name: "img", widget: "image"}
+
+  - name: "trading-bot-types" 
+    label: "Trading Bot Types" 
+    folder: "content/tradingBotsData"
+    slug: "{{slug}}" 
+    fields: 
+      - label: "Trading Bots List" 
+        name: "tradingBotsData"
+        widget: "list"
+        fields: 
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Risk", name: "risk", widget: "string"}
+          - {label: "ROI", name: "roi", widget: "string"}
+          - {label: "Capital", name: "capital", widget: "number"}
+          - {label: "Description", name: "desc", widget: "string"}
+
+  - name: "testimonials" 
+    label: "Testimonials" 
+    folder: "content/testimonials"
+    slug: "{{slug}}" 
+    fields: 
+      - label: "Testimonial List" 
+        name: "testimonialData"
+        widget: "list"
+        fields: 
+          - {label: "Img", name: "img", widget: "image"}
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "About", name: "about", widget: "string"}
+          - {label: "Description", name: "desc", widget: "string"}
