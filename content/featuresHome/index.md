@@ -1,13 +1,31 @@
 ---
 features : [
-    {ft: "Trade directly:  Trade directly on our meticulously crafted platform, guaranteeing speed, reliability, and robust security, with a user-friendly interface and scalable architecture."},
-    {ft: "Automated Strategies: Effortlessly automate trading with precision, minimizing manual intervention."},
-    {ft: "Customizable Strategy: Empower traders to create and fine-tune their unique trading strategies tailored to their risk tolerance and investment goals."},
-    {ft: "Robust Risk Management: Sophisticated risk management tools to minimize potential losses and protect capital in volatile market conditions."},
-    {ft: "Real-time Market Data Integration: Access comprehensive real-time market data seamlessly integrated into the platform for informed decision-making."},
-    {ft: "Optimization: Conduct rigorous optimization of trading srategies to validate performance and enhance profitability."},
-    {ft: "Dynamic Options Templates: Access customizable templates with real-time parameter adjustments, empowering flexible modifications even during active trades."},
-    {ft: "Multi-Asset Compatibility: Trade across a diverse range of assets, including stocks, options, futures, and currencies, providing flexibility and diversification."},
-    {ft: "Intuitive User Interface: Enjoy a user-friendly interface designed for traders of all levels, ensuring ease of use and efficient navigation for enhanced trading experiences."},
+    {
+      "ft": "Direct Trading: Execute trades directly on our platform, ensuring speed, reliability, and security, with an intuitive interface and scalable architecture."
+    },
+    {
+      "ft": "Automated Strategies: Automate your trading with precision, reducing manual tasks and enhancing efficiency."
+    },
+    {
+      "ft": "Customizable Strategies: Tailor your trading strategies to match your risk tolerance and investment objectives."
+    },
+    {
+      "ft": "Robust Risk Management: Utilize advanced risk management tools to safeguard your investments in volatile markets."
+    },
+    {
+      "ft": "Real-time Data Integration: Access up-to-date market data seamlessly integrated into the platform for informed decision-making."
+    },
+    {
+      "ft": "Optimization: Conduct thorough optimization of your trading strategies to maximize performance and profitability."
+    },
+    {
+      "ft": "Dynamic Templates: Utilize customizable templates with real-time parameter adjustments for flexible trading."
+    },
+    {
+      "ft": "Multi-Asset Trading: Trade across various assets, including stocks, options, futures, and currencies, for portfolio diversification."
+    },
+    {
+      "ft": "Intuitive Interface: Enjoy a user-friendly interface designed for traders of all skill levels, ensuring smooth navigation and an enhanced trading experience."
+    }
 ]
 ---

@@ -9,12 +9,12 @@ const AboutArea = ({ frontmatter, markdown }) => {
             <div className="row">
                <div className="col-xxl-10 offset-xxl-1 col-xl-10 offset-xl-1">
                   <div className="about__wrapper">
-                     <h3 className="about__title">We are enabling <br /> Everyone to create for the website.</h3>
+                     <h3 className="about__title">Journey to Systematic Trading:  <br /> The Algo Trading Evolution</h3>
                      <div className="about__thumb w-img wow fadeInUp" data-wow-delay=".3s">
-                        <img src={frontmatter.img} alt="img" />
+                        {/* <img src={frontmatter.img} alt="img" /> */}
                      </div>
                      <div className="about__count pt-50 pb-15 wow fadeInUp" data-wow-delay=".5s">
-                           <div className="row">
+                           {/* <div className="row">
                               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                                  <div className="about__count-item text-center launche mb-30">
                                     <p>LAUNCHED IN</p>
@@ -33,7 +33,7 @@ const AboutArea = ({ frontmatter, markdown }) => {
                                     <h4><span className="counter">4.9</span>%</h4>
                                  </div>
                               </div>
-                           </div>
+                           </div> */}
                         </div>
                         <div className="about__content">
                            {/* <p className="about__text">{`Tomfoolery nice one have it cup of tea wind up bugger on your bike mate 

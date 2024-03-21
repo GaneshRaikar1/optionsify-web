@@ -48,6 +48,11 @@ const SidebarMenu = ({ show, handleClose }) => {
    </Link>
 </div> */}
 <div className='single_link iconAdd'>
+  <Link href="/trading-bots" passHref>
+    <a><li>AlgoTrader</li></a>
+  </Link>
+</div>
+<div className='single_link iconAdd'>
   <Link href="/services" passHref>
     <a><li>Services</li></a>
   </Link>
@@ -55,11 +60,6 @@ const SidebarMenu = ({ show, handleClose }) => {
 <div className='single_link iconAdd'>
   <Link href="/about" passHref>
     <a><li>About Us</li></a>
-  </Link>
-</div>
-<div className='single_link iconAdd'>
-  <Link href="/trading-bots" passHref>
-    <a><li>FAQ</li></a>
   </Link>
 </div>
 <div className='single_link iconAdd'>

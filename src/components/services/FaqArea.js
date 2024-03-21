@@ -23,7 +23,7 @@ const FaqArea = () => {
                               <button className="nav-link active" id="sale-tab" data-bs-toggle="tab" data-bs-target="#sale" type="button" role="tab" aria-controls="sale" aria-selected="false">Recent</button>
                            </li>
                            <li className="nav-item" role="presentation">
-                              <button className="nav-link" id="template-tab" data-bs-toggle="tab" data-bs-target="#template" type="button" role="tab" aria-controls="template" aria-selected="false">Templates</button>
+                              {/* <button className="nav-link" id="template-tab" data-bs-toggle="tab" data-bs-target="#template" type="button" role="tab" aria-controls="template" aria-selected="false">Templates</button> */}
                            </li>
                            {/* <li className="nav-item" role="presentation">
                               <button className="nav-link" id="ui-tab" data-bs-toggle="tab" data-bs-target="#ui" type="button" role="tab" aria-controls="ui" aria-selected="false">UI Design </button>

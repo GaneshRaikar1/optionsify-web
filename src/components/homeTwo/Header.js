@@ -34,10 +34,11 @@ const Header = () => {
                               <ul>
                                  <li><Link href="/"><a>Home</a></Link></li>
                                  {/* <li><Link href="/features"> Features</Link></li> */}
+                                 <li><Link href="/trading-bots"><a>Algo Trader </a></Link></li>
 
                                  <li><Link href="/services"><a>Services</a></Link></li>
                                  <li><Link href="/about"><a>About Us</a></Link></li>
-                                 <li><Link href="/trading-bots"><a>FAQ </a></Link></li>
+
                                  {/* <li><Link href="/pricing"><a >Pricing</a></Link></li> */}
                                  {/* <li ><Link href="/blog" ><a >Blogs</a></Link></li> */}
                                  <li ><Link href="/contact" ><a >Contact</a></Link></li>  <li ><Link href="https://app.optionsify.com/auth/login"><a>Login</a></Link></li>  </ul>

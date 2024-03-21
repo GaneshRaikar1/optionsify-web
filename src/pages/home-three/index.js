@@ -19,8 +19,7 @@ const index = () => {
          <SEO pageTitle={'Home Three'} />
          {/* <HomeThreeHeader /> */}
          {/* <HomeThreeHeroArea /> */}
-         <HeroArea />
-         <FeaturedItem />
+         <HeroArea />         {/* <FeaturedItem /> */}
          <Services />
          {/* <NewestItems />
          <FeaturedThemesProducts />

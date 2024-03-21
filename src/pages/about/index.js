@@ -13,8 +13,8 @@ const About = ({ frontmatter, markdown, testimonials }) => {
          <SEO pageTitle={'About'} />
          <BgShape />
          <AboutArea frontmatter={frontmatter} markdown={markdown} />
-         <BrandArea spacing="pb-65 pt-80" />
-         <Testimonial testimonials={testimonials} />
+         {/* <BrandArea spacing="pb-65 pt-80" /> */}
+         {/* <Testimonial testimonials={testimonials} /> */}
       </>
    );
 };

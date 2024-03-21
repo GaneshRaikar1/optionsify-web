@@ -7,25 +7,31 @@ const FeaturedItem = () => {
          "id": 1,
          "img": "assets/img/icon/category/cat-1.png",
          "name": "Algo Trader",
-         "itemNumber": "Seemless AI driven algo execution platform connected to your broker"
+         "itemNumber": "Execute advanced strategies seamlessly integrated with your broker, featuring risk management at both portfolio and strategy levels."
+         // "itemNumber": "Execute complex strategies effortlessly with our AI-driven platform, seamlessly integrated with your broker"
+         // "itemNumber": "Seemless AI signals driven algo execution platform connected to your existing broker"
       },
       {
          "id": 2,
          "img": "assets/img/icon/category/cat-2.png",
-         "name": "Trade Signals",
-         "itemNumber": "Trade from Tradingview, Mt4, Amibroker, our own Optionsify AI ...Signals"
+         "name": "Trade SignalPro",
+         "itemNumber": "Access trade signals from various platforms like TradingView, Mt4, Amibroker, and our proprietary Optionsify AI"
+         // "itemNumber": "Trade from Tradingview, Mt4, Amibroker, our own Optionsify AI ...Signals"
       },
       {
          id: 3,
          img: 'assets/img/icon/category/cat-3.png',
-         name: 'Strategies & Screeners',
-         itemNumber: 'Get your custom Indicator based strategies & screeners'
+         name: 'Strat Builder', //Strategies + Screeners
+         itemNumber: "We specialize in crafting customized strategies and screeners tailored to your trading style and unique set of indicators"
+         // itemNumber: 'We build bespoke strategies and screeners tailored to your trading style and unique indicators.'
+         // itemNumber: 'We help develop your custom Indicator based Strategies + Screeners'
       },
       {
          id: 4,
          img: 'assets/img/icon/category/cat-3.png',
-         name: 'Learn from your trade journal',
-         itemNumber: 'Learn from your trade journal, Forward test your strategy (paper trade) and then scale up Live '
+         name: 'Insight Master',
+         itemNumber: 'Gain deep insights from your trading journal, Forward test your strategy (paper trade) and then scale up with data-driven analytics'
+         // itemNumber: 'Learn from your trading journal, Forward test your strategy (paper trade) and then scale up Live '
       },
    ]
    return (

@@ -18,14 +18,14 @@ const FeaturedItem = () => {
       {
          id: 3,
          img: 'assets/img/icon/category/cat-3.png',
-         name: 'Strategies & Screeners',
-         itemNumber: 'Get your custom Indicator based strategies & screeners'
+         name: 'Strategies + Screeners',
+         itemNumber: 'Get your custom Indicator based Strategies + Screeners'
       },
       {
          id: 4,
          img: 'assets/img/icon/category/cat-3.png',
-         name: 'Learn from your trade journal',
-         itemNumber: 'Learn from your trade journal, Forward test your strategy (paper trade) and then scale up Live '
+         name: 'Deep Analytics',
+         itemNumber: 'Deep Analytics, Forward test your strategy (paper trade) and then scale up Live '
       },
    ]
    return (
